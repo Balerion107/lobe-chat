@@ -2,9 +2,6 @@ name: Claude Auto Testing Coverage
 # Automatically add unit tests to improve code coverage
 
 on:
-  schedule:
-    # Run daily at 05:30 UTC (13:30 Beijing Time)
-    - cron: '30 5 * * *'
   workflow_dispatch:
     inputs:
       target_module:
